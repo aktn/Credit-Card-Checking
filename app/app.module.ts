@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CreditCardDirective } from './credit-card/credit-card.directive';
+import { TooltipDirective } from './tooltip/tooltip.directive';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { CreditCardDirective } from './credit-card/credit-card.directive';
   ],
   declarations: [
     AppComponent,
-    CreditCardDirective
+    CreditCardDirective,
+    TooltipDirective
   ]
 })
 export class AppModule {}
